@@ -1,3 +1,9 @@
+:root{
+    --color-jet: #3333;
+    --color-antique-white: #FEEFDD
+    --bg-white: #EBEBEB;
+}
+
 *{
     box-sizing: border-box;
 }

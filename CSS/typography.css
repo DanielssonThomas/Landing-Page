@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Abel';
+    src: url('../Abel-font/Abel-Regular.woff2') format('woff2'),
+         url('../Abel-font/Abel-Regular.woff') format('woff');
+}
+
