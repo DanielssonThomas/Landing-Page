@@ -4,8 +4,12 @@
          url('../Abel-font/Abel-Regular.woff') format('woff');
 }
 
-.nav-container a{
+body{
+    color: white;
     font-family: 'Abel';
+}
+
+.nav-container a{
     color: var(--color-antique-white);
     text-decoration: none;
 }
