@@ -6,7 +6,7 @@
 
 .nav-container a{
     font-family: 'Abel';
-    color: white;
+    color: var(--color-antique-white);
     text-decoration: none;
 }
 
