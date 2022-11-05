@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: center;
+    
+    background-color: var(--color-jet);
+    width: 100%;
+}
+
+.nav-container{
+    width: 78rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shopping-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--bg-white);
+}
