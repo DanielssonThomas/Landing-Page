@@ -1,0 +1,37 @@
+main{
+    display: flex;
+}
+
+.filter-section{
+    display: flex;
+    justify-content: center;
+    width: 23rem;
+    background-color: var(--color-jet);
+}
+
+.filter-section-container{
+    width: 15rem;
+
+}
+
+.filters li{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+li:first-child{
+    border-top: 1px solid white;
+}
+
+.mug-section{
+    width: 100%;
+    height: 50vh;
+    background-color: var(--bg-white);
+}
