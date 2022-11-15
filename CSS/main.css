@@ -5,8 +5,15 @@ main{
 .filter-section{
     display: none;
 }
-
-@media screen and (min-width: 767px) {
+.hero-quote{
+    display:none;
+}
+.mug-quote{
+    display: inline;
+    color: black;
+    text-align: center;
+}
+@media screen and (min-width: 1023px) {
     .filter-section{
         display: flex;
         justify-content: center;
@@ -40,4 +47,11 @@ main{
         height: 50vh;
         background-color: var(--bg-white);
     }
+    .hero-quote {
+        display: inline;
+    }
+    .mug-quote{
+        display: none;
+    }
+
 }
