@@ -4,11 +4,8 @@
 
 .filter img{
     position: absolute;
-}
-
-.filter-open img{
-    left: 13rem;
     top: 0.5rem;
+    right: 0.5rem;
 }
 
 main{
@@ -26,6 +23,7 @@ main{
     color: black;
     text-align: center;
 }
+
 @media screen and (min-width: 1023px) {
     .filter-section{
         display: flex;
@@ -37,7 +35,7 @@ main{
     .filter-section-container{
         width: 15rem;
     }
-    
+
     .filters li{
         display: flex;
         justify-content: space-between;
