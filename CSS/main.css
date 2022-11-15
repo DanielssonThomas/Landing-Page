@@ -15,13 +15,22 @@ main{
 .filter-section{
     display: none;
 }
+
 .hero-quote{
     display:none;
 }
+
+.quote-container{
+    display: grid;
+    grid-template-columns: 0.8fr 1.5fr 0.3fr;
+    grid-template-rows: 2rem 5rem;
+}
+
 .mug-quote{
-    display: inline;
+    justify-content: right;
+    grid-column: 2;
+    grid-row:2;
     color: black;
-    text-align: center;
 }
 
 .card{
@@ -71,9 +80,11 @@ main{
         height: 50vh;
         background-color: var(--bg-white);
     }
+
     .hero-quote {
         display: inline;
     }
+    
     .mug-quote{
         display: none;
     }
