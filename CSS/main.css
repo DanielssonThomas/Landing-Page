@@ -24,7 +24,21 @@ main{
     text-align: center;
 }
 
+.card{
+    height: 12rem;
+    width: 11rem;
+}
+
+.card img{
+    width: 12rem;
+    height: 12rem;
+}
+
 @media screen and (min-width: 1023px) {
+    .filter{
+        display: none;
+    }
+
     .filter-section{
         display: flex;
         justify-content: center;
