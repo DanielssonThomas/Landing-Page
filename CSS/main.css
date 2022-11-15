@@ -1,3 +1,16 @@
+.filter{
+    position: relative;
+}
+
+.filter img{
+    position: absolute;
+}
+
+.filter-open img{
+    left: 13rem;
+    top: 0.5rem;
+}
+
 main{
     display: flex;
 }
@@ -23,7 +36,6 @@ main{
     
     .filter-section-container{
         width: 15rem;
-    
     }
     
     .filters li{
