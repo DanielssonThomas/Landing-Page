@@ -1,11 +1,28 @@
-.filter{
-    position: relative;
+.filter-nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    box-shadow: 0 0 0.4rem 1px black;
 }
 
-.filter img{
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
+.filter-nav p{
+    font-size: 1.5rem;
+    color: var(--color-jet);
+}
+
+.filter-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6rem;
+    height: 2rem;
+    margin-left: 2rem;
+}
+
+.filter-icon img{
+    width: 2rem;
+    height: 1.5rem;
 }
 
 main{
