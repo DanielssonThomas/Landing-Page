@@ -19,6 +19,8 @@
     width: 7rem;
     height: 2rem;
     margin-left: 2rem;
+
+    cursor: pointer;
 }
 
 .filter-icon img{
@@ -32,11 +34,14 @@
     align-items: center;
     width: 10rem;
     margin-right: 2rem;
+
+    cursor: pointer;
 }
 
 main{
     display: flex;
-    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 .filter-section{
@@ -74,7 +79,6 @@ main{
     grid-template-rows: 21rem 21rem;
     gap: 1rem 2rem;
     padding-top: 2rem;
-    height: 65rem;
 }
 
 @media screen and (min-width: 1023px) {
@@ -101,19 +105,19 @@ main{
         border-bottom: 1px solid white;
     }
     
+    
+    .filter-cart-nav{
+        display: none;
+    }
+    
+    .quote-container{
+        display: none;
+    }
+    
     .mugs-container{
         padding-top: 8rem;
         padding-left: 5rem;
         padding-right: 5rem;
-        scale: 1.2;
-    }
-
-    .filter-nav{
-        display: none;
-    }
-
-    .quote-container{
-        display: none;
     }
 
     ul{

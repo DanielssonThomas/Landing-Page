@@ -48,6 +48,16 @@ body{
     color: black;
 }
 
-.trending-content p{
+.trending-text p, .trending-volume{
     color: black;
+}
+
+.trending-price{
+    color: var(--pricing-red);
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.mug-quote{
+    font-size: 18px;
 }
