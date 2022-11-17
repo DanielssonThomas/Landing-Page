@@ -17,3 +17,27 @@ body{
 .shopping-cart a{
     color: black;
 }
+
+.card{
+    color: black;
+}
+
+.card p{
+    margin: 5px 0;
+}
+
+.card-pricing{
+    color: var(--pricing-red);
+}
+
+.card-title{
+    font-size: 24px;
+}
+
+.card-company{
+    font-size: 18px;
+}
+
+.card-pricing{
+    font-size: 28px;
+}

@@ -1,0 +1,21 @@
+.card{
+    height: 12rem;
+    width: 11rem;
+}
+
+.card img{
+    width: 12rem;
+    height: 12rem;
+}
+
+.card-content{
+    position: relative;
+}
+
+.card-content img{
+    width: 2.5rem;
+    height: 2rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
