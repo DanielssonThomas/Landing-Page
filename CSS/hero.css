@@ -24,7 +24,9 @@ header q{
     width: 11rem;
     height: 11rem;
     position: absolute;
-    left: 8rem;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
     z-index: 1;
 }
 
@@ -37,4 +39,12 @@ header q{
     
     opacity: 0.4;
     z-index: -1;
+}
+
+@media screen and (min-width: 1023px) {
+    .hero-logo{
+        width: 11rem;
+        height: 11rem;
+        left: 8rem;
+    }
 }
