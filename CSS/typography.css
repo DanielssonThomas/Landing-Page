@@ -41,3 +41,13 @@ body{
 .card-pricing{
     font-size: 28px;
 }
+
+.trending-header{
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.trending-content p{
+    color: black;
+}

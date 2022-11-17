@@ -36,7 +36,6 @@ header q{
     height: 29rem;
     object-position: center;
     object-fit: cover;
-    
     opacity: 0.4;
     z-index: -1;
 }

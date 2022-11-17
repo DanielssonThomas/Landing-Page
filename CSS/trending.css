@@ -1,0 +1,29 @@
+.trending-container{
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.trending-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trending-title{
+    margin: 0;
+}
+
+.trending-content img{
+    width: 100vw;
+    height: 60vh;
+}
+
+.trending-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.trending-content p{
+    width: 25rem;
+}

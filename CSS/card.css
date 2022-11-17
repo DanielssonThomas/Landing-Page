@@ -2,6 +2,7 @@
     height: 12rem;
     width: 11rem;
     cursor: pointer;
+    object-fit: cover;
 }
 
 .card img{
