@@ -1,5 +1,4 @@
 .trending-container{
-    margin-top: 5rem;
     width: 100%;
 }
 
@@ -7,7 +6,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 5rem;
 }
 
 .trending-title{
@@ -18,10 +16,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 5rem;
 }
 
 .trending-content img{
-    width: 30rem;
+    width: 20rem;
 }
 
 .trending-text{
@@ -35,8 +34,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 0 2rem;
-    width: 100%;
+    width: 18rem;
 }
 
 .trending-price-cart{
@@ -84,8 +82,11 @@
     .trending-content{
         flex-direction: row;
     }
+}
 
-    .trending-header{
-        margin-top: 25rem;
+@media screen and (min-width: 500px) {
+    .trending-product-info{
+        width: 100%;
+        padding: 0 1rem;
     }
 }
