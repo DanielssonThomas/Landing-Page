@@ -28,6 +28,7 @@ footer {
     text-decoration: none;
     color: var(--color-antique-white);
   }
+  
   @media screen and (min-width: 768px) {
     footer{
         padding-top: 5rem;

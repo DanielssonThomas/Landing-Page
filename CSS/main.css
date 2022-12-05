@@ -168,7 +168,7 @@ main{
     background-color: var(--color-jet);
     color: var(--color-antique-white);
     margin-bottom: 2rem;
-    padding: 0 10rem;
+    padding: 0 2rem;
 }
 
 
@@ -207,5 +207,18 @@ main{
 @media screen and (min-width: 415px) {
     .mugs-container{
         padding: 24px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .customer-thoughts{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: var(--color-jet);
+        color: var(--color-antique-white);
+        margin-bottom: 2rem;
+        padding: 0 10rem;
     }
 }
