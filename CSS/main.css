@@ -1,3 +1,11 @@
+:root{
+    --color-jet: #333333;
+    --color-antique-white: #FEEFDD;
+    --color-background: #EBEBEB;
+    --color-eerie: #1D1D1B;
+    --color-product: #40A011;
+}
+
 .filter-cart-nav{
     display: flex;
     align-items: center;
@@ -142,6 +150,17 @@ main{
     gap: 16px 16px;
     /* padding-top: 2rem; */
 }
+
+.customer-thoughts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-jet);
+    color: var(--color-antique-white);
+    margin-bottom: 2rem;
+    padding: 0 10rem;
+}
+
 
 @media screen and (min-width: 1023px) {
     
