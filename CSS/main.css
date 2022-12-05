@@ -14,8 +14,78 @@
     width: 5rem;
     height: 2rem;
     margin-left: 2rem;
-
     cursor: pointer;
+}
+
+.filter-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    background-color: var(--color-jet);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    transition: 0.7s left ease;
+}
+
+.filter-section-open{
+    left: 0;
+}
+
+.filter-close{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.filter-section h2{
+    font-size: 3rem;
+}
+
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60vh;
+}
+
+.filter-card-heading{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-antique-white);
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+.filter-card-heading a{
+    font-size: 1.5rem;
+}
+
+.filter-arrows{
+    transform: rotate(270deg);
+    transition: 0.5s transform ease;
+}
+
+.filter-arrows-open{
+    transform: rotate(360deg);
+}
+
+.filter-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+    width: 25rem;
+    max-height: 0;
+    transition: 0.5s max-height ease;
+}
+
+.filter-card-content-open{
+  max-height: 10rem;
 }
 
 .filter-icon img{
@@ -37,10 +107,6 @@ main{
     display: flex;
     align-content: center;
     flex-direction: column;
-}
-
-.filter-section{
-    display: none;
 }
 
 .hero-quote{
@@ -78,43 +144,11 @@ main{
 }
 
 @media screen and (min-width: 1023px) {
-    .filter{
-        display: none;
-    }
-
-    .filter-section{
-        display: flex;
-        justify-content: center;
-        height: 100vh;
-        width: 23rem;
-        background-color: var(--color-jet);
-    }
-    
-    .filter-section-container{
-        width: 15rem;
-    }
-
-    .filters li{
-        display: flex;
-        justify-content: space-between;
-        cursor: pointer;
-        border-bottom: 1px solid white;
-    }
-    
-    
-    .filter-cart-nav{
-        display: none;
-    }
     
     .quote-container{
         display: none;
     }
-    
-    .mugs-container{
-        /* padding-top: 8rem;
-        padding-left: 5rem;
-        padding-right: 5rem; */
-    }
+
 
     ul{
         padding-left: 0;
@@ -139,12 +173,6 @@ main{
         display: none;
     }
 
-}
-
-@media screen and (min-width: 500px){
-    .shopping-cart-mobile{
-        display: none;
-    }
 }
 
 @media screen and (min-width: 415px) {
