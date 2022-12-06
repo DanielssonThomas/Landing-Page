@@ -17,6 +17,11 @@
     box-shadow: 0 0 0.4rem 1px black;
     background-color: var(--bg-white);
     z-index: 1;
+    transition: 0.4s top ease;
+}
+
+.filter-cart-nav-close{
+    top: -3rem;
 }
 
 .filter-icon{
@@ -41,10 +46,12 @@
     width: 100vw;
     height: 100vh;
     z-index: 1;
+    visibility: hidden;
     transition: 0.7s left ease;
 }
 
 .filter-section-open{
+    visibility: visible;
     left: 0;
 }
 

@@ -61,3 +61,18 @@ filterCardheadings.forEach(btn => {
         currentAccordionIndex === 0;
     }
 });
+
+const navBar = document.querySelector('.filter-cart-nav');
+let oldScrollPos = window.pageYOffset;
+window.onscroll = () =>{
+    if(window.pageYOffset > 423){
+        const currentScrollPos = window.pageYOffset;
+        if(oldScrollPos > currentScrollPos){
+            navBar.classList.remove('filter-cart-nav-close');
+        }
+        else{
+            navBar.classList.add('filter-cart-nav-close');
+        }
+        oldScrollPos = currentScrollPos;
+    }
+}
