@@ -174,8 +174,52 @@ main{
     justify-content: space-between;
     background-color: var(--color-jet);
     color: var(--color-antique-white);
-    margin-bottom: 2rem;
     padding: 0 2rem;
+}
+
+.sign-up{
+    color: var(--color-jet);
+}
+
+.sign-up :is(h2,p) {
+    margin:1rem 2rem;
+}
+
+.share {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.sign-up form {
+    border-top: 2px solid var(--color-jet);
+    display: flex;
+    flex-direction: column;
+}
+
+.share input {
+    width: 100%;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.travel-label {
+    width: 30%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form div button{
+    width: 100%;
+    height: 4rem;
+    border-radius: unset;
+    font-size: 2rem;
+    color: var(--color-jet);
+    font-weight: 200;
+    border-top: 2px solid var(--color-jet);
 }
 
 
@@ -184,7 +228,6 @@ main{
     .quote-container{
         display: none;
     }
-
 
     ul{
         padding-left: 0;
