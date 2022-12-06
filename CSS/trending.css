@@ -1,4 +1,8 @@
 .trending-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 55rem;
     width: 100%;
 }
 
@@ -25,7 +29,7 @@
 
 .trending-text{
     width: 100%;
-    padding: 0 2rem;
+    padding: 0 1rem;
     display: flex;
     justify-content: center;
 }
@@ -78,15 +82,28 @@
     justify-content: space-between;
 }
 
-@media screen and (min-width: 1023px){
-    .trending-content{
-        flex-direction: row;
-    }
-}
-
 @media screen and (min-width: 500px) {
     .trending-product-info{
         width: 100%;
         padding: 0 1rem;
     }
+
+    .trending-container{
+        height: 60rem;
+    }
+
+    .trending-text{
+        font-size: 1rem;
+    }
 }
+
+@media screen and (min-width: 1023px){
+    .trending-content{
+        flex-direction: row;
+    }
+
+    .trending-container{
+        height: 40rem;
+    }
+}
+
