@@ -122,8 +122,33 @@
     align-items: center;
     width: 8rem;
     margin-right: 2rem;
-
     cursor: pointer;
+}
+
+.shopping-cart-number{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping-cart-amount{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    top: 0.5rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: var(--color-product);
+    border-radius: 50%;
+}
+
+.shopping-cart-amount p{
+    color: var(--color-antique-white);
+    align-self: center;
+    font-size: 0.8rem;
+    margin: 0;
 }
 
 main{
