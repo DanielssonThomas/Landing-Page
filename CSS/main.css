@@ -46,12 +46,10 @@
     width: 100vw;
     height: 100vh;
     z-index: 1;
-    visibility: hidden;
     transition: 0.7s left ease;
 }
 
 .filter-section-open{
-    visibility: visible;
     left: 0;
 }
 
@@ -220,11 +218,31 @@ form div button{
     color: var(--color-jet);
     font-weight: 200;
     border-top: 2px solid var(--color-jet);
+    cursor: pointer;
 }
 
 
 @media screen and (min-width: 1023px) {
-    
+    .sign-up{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 50rem;
+        height: 20rem;
+    }
+
+    .sign-up form{
+        border-top: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 10rem;
+    }
+
+    .share{
+        border: 2px solid black;
+    }
+
     .quote-container{
         display: none;
     }
