@@ -167,6 +167,7 @@ main{
 }
 
 .quote-container{
+    margin-top: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,6 +184,15 @@ main{
 .mugs-container{
     display:none; 
 }
+.card-content{
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.flickity-page-dots{
+ margin-bottom:10%;
+}
+
 .mug-section-mobile{
     display: block;
     height: auto;
@@ -198,10 +208,11 @@ main{
 
 .sign-up{
     color: var(--color-jet);
+    height: 20.7rem;
 }
 
 .sign-up :is(h2,p) {
-    margin:1rem 2rem;
+    margin:3rem 2rem;
 }
 
 .share {
@@ -249,7 +260,7 @@ form div button{
         flex-direction: column;
         align-self: center;
         width: 50rem;
-        height: 20rem;
+        height: 22.6rem;
     }
 
     .sign-up form{
@@ -307,7 +318,6 @@ form div button{
         gap: 16px 16px;
         /* padding-top: 2rem; */
     }
-
     
     .mug-section-mobile{
         display: none;
