@@ -260,7 +260,8 @@ form div button{
         flex-direction: column;
         align-self: center;
         width: 50rem;
-        height: 22.6rem;
+        height: 23.6rem;
+        margin-bottom: 3rem;
     }
 
     .sign-up form{
@@ -305,6 +306,10 @@ form div button{
 }
 
 @media screen and (min-width: 415px) {
+    .quote-container{
+        margin-top: 0;
+    }
+
     .mugs-container{
         padding: 24px;
     }
@@ -313,10 +318,8 @@ form div button{
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(12, 1fr);
-        /* grid-template-columns: repeat(auto-fill, 12rem); */
         grid-template-rows: repeat(2, 1fr);
         gap: 16px 16px;
-        /* padding-top: 2rem; */
     }
     
     .mug-section-mobile{
@@ -331,9 +334,6 @@ form div button{
         position: relative;
         height: auto;
     }
-
-
-
 
     .customer-thoughts{
         display: flex;

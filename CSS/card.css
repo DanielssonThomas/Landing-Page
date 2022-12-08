@@ -3,6 +3,22 @@
     width: 100%;
     
 }
+.card img{
+    width: 100%;
+}
+
+.card-content{
+    position: relative;
+}
+
+.card-content img{
+    width: 2.5rem;
+    height: 2rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
 @media screen and (min-width: 830px) {
     .card{
         grid-column: span 4;   
@@ -17,23 +33,3 @@
     }
 }
 
-.card img{
-    /* width: 100%;
-    max-height: 200px;
-    object-fit: cover; */
-    width: 100%;
-    
-
-}
-
-.card-content{
-    position: relative;
-}
-
-.card-content img{
-    width: 2.5rem;
-    height: 2rem;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}

@@ -36,15 +36,16 @@ body{
 }
 
 .card-title{
-    font-size: 24px;
+    font-size: 1.3rem;
+    white-space: nowrap;
 }
 
 .card-company{
-    font-size: 18px;
+    font-size: 0.9rem;
 }
 
 .card-pricing{
-    font-size: 28px;
+    font-size: 1.4rem;
 }
 
 .trending-header{
@@ -73,5 +74,20 @@ body{
 @media screen and (min-width: 435px) {
     .trending-title{
         letter-spacing: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .card-title{
+        font-size: 1.5rem;
+        white-space: nowrap;
+    }
+    
+    .card-company{
+        font-size: 1.1rem;
+    }
+    
+    .card-pricing{
+        font-size: 1.6rem;
     }
 }
