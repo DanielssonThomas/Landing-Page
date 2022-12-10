@@ -1,11 +1,3 @@
-:root{
-    --color-jet: #333333;
-    --color-antique-white: #FEEFDD;
-    --color-background: #EBEBEB;
-    --color-eerie: #1D1D1B;
-    --color-product: #40A011;
-}
-
 .filter-cart-nav{
     display: flex;
     align-items: center;
@@ -183,20 +175,22 @@ main{
 
 .sign-up{
     color: var(--color-jet);
-    height: 18rem;
+    height: 17rem;
 }
 
 .sign-up h2 {
-    margin:3rem 2rem;
+    margin:2rem 2rem;
+    font-size: xx-large;
 }
 .sign-up p {
-    margin:0 2rem;
+    margin:0 2rem 1rem;
 }
 
 .share {
     display: flex;
     flex-direction: row;
     font-size: 2rem;
+    border-bottom: 2px solid var(--color-jet);
 }
 
 .sign-up form {
@@ -220,17 +214,22 @@ main{
     justify-content: center;
 }
 
-form div button{
-    width: 100%;
-    height: 4rem;
-    border-radius: unset;
-    font-size: 2rem;
-    color: var(--color-jet);
-    font-weight: 200;
-    border-top: 2px solid var(--color-jet);
-    cursor: pointer;
+.subscribe-button{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: var(--color-jet);
+    width: 9rem;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin-top: 0.2rem;
 }
 
+.subscribe-p{
+    color: var(--color-background);
+    font-size: 2rem;
+}
 
 @media screen and (min-width: 1023px) {
     .sign-up{
@@ -283,14 +282,10 @@ form div button{
 
 }
 
-@media screen and (min-width: 678px) {
+    @media screen and (min-width: 768px) {
     .quote-container{
         margin-top: 2rem;
         margin-bottom: 0;
-    }
-
-    .card, is-selected {
-        background-color: #1D1D1B;
     }
 
     .mugs-container{
@@ -309,9 +304,6 @@ form div button{
         display: none;
     }
 
-}
-
-@media screen and (min-width: 768px) {
     .mug-section{
         display: unset;
         position: relative;
@@ -320,11 +312,22 @@ form div button{
 
     .customer-thoughts{
         display: flex;
+        align-items: center;
         flex-direction: column;
         justify-content: space-between;
         background-color: var(--color-jet);
         color: var(--color-antique-white);
         margin-bottom: 2rem;
-        padding: 0 10rem;
+        padding: 2rem;
+    }
+    .thought{
+        margin: 2rem;
+    }
+    .customer-thoughts hr {
+        display: none;
+    }
+    .thoughts-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }

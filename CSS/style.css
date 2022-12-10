@@ -3,8 +3,10 @@
     --color-antique-white: #FEEFDD;
     --bg-white: #EBEBEB;
     --pricing-red: #CB252F;
+    --color-background: #EBEBEB;
+    --color-eerie: #1D1D1B;
+    --color-product: #40A011;
 }
-
 *{
     box-sizing: border-box;
 }
