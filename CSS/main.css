@@ -183,11 +183,14 @@ main{
 
 .sign-up{
     color: var(--color-jet);
-    height: 20.7rem;
+    height: 18rem;
 }
 
-.sign-up :is(h2,p) {
+.sign-up h2 {
     margin:3rem 2rem;
+}
+.sign-up p {
+    margin:0 2rem;
 }
 
 .share {
@@ -235,7 +238,7 @@ form div button{
         flex-direction: column;
         align-self: center;
         width: 50rem;
-        height: 23.6rem;
+        height: 15rem;
         margin-bottom: 3rem;
     }
 
@@ -280,10 +283,14 @@ form div button{
 
 }
 
-@media screen and (min-width: 415px) {
+@media screen and (min-width: 678px) {
     .quote-container{
         margin-top: 2rem;
         margin-bottom: 0;
+    }
+
+    .card, is-selected {
+        background-color: #1D1D1B;
     }
 
     .mugs-container{
